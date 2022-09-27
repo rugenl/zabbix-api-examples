@@ -1,7 +1,3 @@
-"""
-Get hosts in passed group    
-"""
-
 from pyzabbix import ZabbixAPI
 from os import environ
 import re
@@ -9,7 +5,6 @@ import re
 # activate these lines for tracing
 #import logging
 #logging.basicConfig(filename='pyzabbix_debug.log',level=logging.DEBUG)
-
 
 # The hostname at which the Zabbix web interface is available
 ZABBIX_SERVER = 'https://'+environ['host']+'/zabbix'
